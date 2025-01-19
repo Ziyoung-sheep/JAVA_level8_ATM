@@ -17,5 +17,9 @@ public class AccountDAO {
 		accList.add(new Account(1003, "test03", "7777-7777-7777", 1000));
 		accList.add(new Account(1004, "test04", "8888-8888-8888", 1000));
 	}
+	public AccountDAO() {
+		// TODO Auto-generated constructor stub
+	}
+	
 
 }
