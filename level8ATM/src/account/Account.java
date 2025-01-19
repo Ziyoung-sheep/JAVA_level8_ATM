@@ -46,4 +46,8 @@ public class Account {
 		this.money = money;
 	}
 
+	@Override
+	public String toString() {
+		return accNumber + "\t잔액" + money + "원";
+	}
 }

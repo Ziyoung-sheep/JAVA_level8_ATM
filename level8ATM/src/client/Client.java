@@ -46,4 +46,11 @@ public class Client {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return clientNo + "\t" + id + "\t" + name;
+	}
+	
+	
+
 }
